@@ -8,6 +8,8 @@ typedef long long int ll;
 #define fast_IO ios::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL);
 char board[5][5];
 string name;
+
+//For checking the remaining move
 bool any_move_remaining(){
 
 	for(int i=0;i<3;i++)
@@ -63,6 +65,7 @@ int function()
 	return 0;
 }
 
+//print the board at the instance
 void board_print(){
 
 
@@ -81,6 +84,7 @@ void board_print(){
 	cout<<nl;
 }
 
+//Min-Max Algorithm of Game Theory
 int minmax(int depth,bool Is){
 
 	int points=function();
@@ -141,6 +145,7 @@ int minmax(int depth,bool Is){
 	}
 }
 
+//Checking for the best move of system
 void best_move(){
 	int X=-1,Y=-1,BEST=-1;
 
