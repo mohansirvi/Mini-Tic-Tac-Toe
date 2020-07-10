@@ -173,11 +173,13 @@ void best_move(){
 
 int main()
 {
-	for(int i=0;i<3;i++)
-		for(int j=0;j<3;j++)
+	for(int i=0;i<3;i++){
+		for(int j=0;j<3;j++){
 			board[i][j]='_';
-				// name[0] = user
-				// x = bot
+		}
+	}
+	// name[0] = user
+	// x = bot
 
 	cout<<"ENTER YOUR NAME : "<<nl;
 	cin>>name;
