@@ -11,3 +11,10 @@ Step 2:
 
 
 ![image](Display2.png)
+
+
+
+Step 3:
+
+
+![image](Display3.png)
