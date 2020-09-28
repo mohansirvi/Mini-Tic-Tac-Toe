@@ -32,3 +32,11 @@ Step 5:
 
 
 ![image](Display5.png)
+
+
+
+
+Step 6:
+
+
+![image](Display6.png)
