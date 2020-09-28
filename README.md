@@ -2,4 +2,4 @@ Unbeatable mini Tic Tac Toe based on min-max algorithm of game theory. The AI of
 
 
 Step 1:
-[!image](Display1.png)
+![image](Display1.png)
